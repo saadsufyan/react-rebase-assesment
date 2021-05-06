@@ -7,8 +7,3 @@ test('renders My really cool blog site logo', () => {
   expect(linkElement).toBeInTheDocument();
 });
 
-test('renders Auto Review Article', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/Auto Review:/i);
-  expect(linkElement).toBeInTheDocument();
-});
